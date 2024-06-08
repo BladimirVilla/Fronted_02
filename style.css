@@ -1,0 +1,85 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+.attribution {
+    font-size: 16px; text-align: center; 
+    font-weight: 700;
+}
+.attribution a {
+    color: var(--Green)
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: var(--White);
+    background-color: var(--OffBlack);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.container{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--DarkGrey);
+    width: 450px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.avatar img{
+    width: 100px;
+    border-radius: 50%;
+    
+    
+  
+}
+.parrafo{
+    font-size: 22px;
+}
+.from {
+    
+    color: var(--Green);
+    font-size: 20px;
+    font-style: var(--Green);
+}
+.btnRedes{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+
+    
+    
+}
+
+.redes{
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: var(--White);
+    background-color: var(--Grey);
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.redes:hover{
+    cursor: pointer;
+    background-color: var(--Green);
+    color: black;
+}
+
